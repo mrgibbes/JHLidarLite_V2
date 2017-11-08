@@ -1,10 +1,10 @@
 #include "lidarlite.h"
-// Interface for Lidar-Lite V2 (Blue Label) with NVIDIA Jetson TK1
+// Interface for Lidar-Lite V3 (GARMIN) with NVIDIA Jetson TX2
 
 
 LidarLite::LidarLite()
 {
-    kI2CBus = 1 ;           // Default I2C bus for Lidar-Lite on Jetson TK1
+    kI2CBus = 0 ;           // Default I2C bus for Lidar-Lite V3 on Jetson TX2
     error = 0 ;
 }
 
