@@ -14,7 +14,7 @@ $ sudo apt-get install libi2c-dev i2c-tools
 
 The Lidar-Lite appears as 0x62 on i2c bus 0 on the Jetson TX2 with this wiring:
 
-VCC J21-2 -> Lidar-Lite (+)
+VCC J21-2 -> Lidar-Lite (+) /n
 GND J21-6 -> Lidar-Lite (-)
 SCL J21-27 -> Lidar-Lite (SCL)
 SDA J21-28 -> Lidar-Lite (SDA)
