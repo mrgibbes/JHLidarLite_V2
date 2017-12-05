@@ -20,4 +20,5 @@ VCC J21-2 -> Lidar-Lite (+)
 GND J21-6 -> Lidar-Lite (-)
 SCL J21-27 -> Lidar-Lite (SCL)
 SDA J21-28 -> Lidar-Lite (SDA)
+
 //Not sure if true on high current 5v supplies... - mrgibbes Lidar-Lite V2 requires a 680uF capacitor between 5V and GND. See documentation for wiring.
